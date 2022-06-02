@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header img {
+    width: 100%;
+}
+nav {
+    text-align: center;
+    background-color: green;
+    font-size: 1.5rem;
+}
+nav a {
+    text-decoration: none;
+}
+
+nav:hover, nav a:hover {
+    color: white;
+    background-color: blueviolet;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    margin-left: 50px;
+}
+
+main.stories {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main.stories article {
+    display: inline-block;
+    width: 30%;
+    margin: 20px 5px;
+}
+main.stories article img {
+    display: inline-block;
+    width: 100%;
+    opacity: 0.8;
+   box-shadow: 10px 5px 5px black;
+}
+
+main.container {
+    margin: 0 auto;
+    height: 50%;
+    background-color: yellow;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+label {
+  display: block;
+  margin: 10px 5px;
+}
+
+legend {
+ visibility: hidden;
+}
+
+fieldset {
+    border: none;
+}
+
+input, select, textarea {
+    border: solid 1px grey;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+textarea {
+    height: 200px;
+}
+
+.button {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    border: none;
+}
+
+.button:hover {
+    background-color: darkgreen;
+}
